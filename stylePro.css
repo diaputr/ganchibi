@@ -1,0 +1,39 @@
+body{
+	/*background: darkgrey;*/
+}
+
+.title img{
+	margin-left: 43%;
+	margin-top: 10px;
+	margin-bottom: -72px;
+	width: 15%;
+}
+
+.content{
+	margin: auto;
+	height: 450px;
+	width: 75%;
+	background: royalblue;
+	border-radius: 20px;
+}
+
+.content p{
+	padding-top: 55px;
+	text-align: center;
+	font-family: Trebuchet ms;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.hola{
+	text-align: center;
+	background: white;
+	margin: 45px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.hola a{
+	text-decoration: none;
+}

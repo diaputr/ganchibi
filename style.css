@@ -1,0 +1,217 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://i.pinimg.com/originals/f7/84/ed/f784ed04fbce4e158b803cdc43e18514.png);
+}
+
+.wrapper{
+	width: 1101px;
+	margin: auto;
+	position: relative;
+}
+
+.logo{
+	font-size: 60px;
+	font-weight: 700;
+	float: left;
+	font-family: Trebuchet ms;
+	color: white;
+}
+
+.menu{
+	float: right;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #1552bd;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	color: floralwhite;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+/*nav ul li a:hover{
+	text-decoration: underline;
+}*/
+
+section{
+	margin: auto;
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.kolom{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.kolom .desc{
+	font-size: 25px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+
+h2, h3{
+	margin-bottom: 20px;
+	font-family: candara;
+	font-size: 50px;
+	color: #1552bd;
+}
+
+p{
+	line-height: 25px;
+	text-align: justify;
+}
+
+a.tombol, nav ul li a:hover{
+	color: #1552bd;
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 13px 20px 13px 20px;
+}
+
+a.more{
+	color: white;
+	background-color: #1552bd;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 20px;
+	padding: 13px 20px 13px 20px;
+}
+
+a.tombol:hover, a.more:hover{
+	background-color: #8ebf24;
+	text-decoration: none;
+	color: white;
+}
+
+.gambar{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.chibi img{
+	width: 275px;
+}
+
+.ganci img{
+	width: 330px;
+}
+
+.chibi p, .ganci p{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.fixed{
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	padding: 10px;
+	background-color: white;
+	border: 3px solid #1552bd;
+	border-radius: 15px;
+}
+
+#kontak{
+	background: #1552bd;
+	text-decoration: none;
+	padding: 100px;
+}
+
+.footer{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.footer-section{
+	width: 100%;
+	margin-bottom: 25px;
+	color: white;
+	text-align: center;
+}
+
+h3, a.btn{
+	color: white;
+	text-align: center;
+}
+
+.sosmed img{
+	margin: 0px 25px 25px 25px;
+	width: 40px;
+}
+
+@media screen and (max-width: 991.980px){
+	.wrapper{
+		width: 90%;
+	}
+
+	.logo {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav .menu{
+		width: 100%;
+		margin: 0;
+	}
+
+	nav .menu ul{
+		text-align: center;
+		margin: auto;
+		line-height: 60px;
+	}
+
+	nav .menu ul li{
+		display: inline-block;
+		float: none;
+	}
+
+	section, section img{
+		display: block;
+	}
+}
