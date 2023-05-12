@@ -1,2 +1,2 @@
 # ganchibi
-ganchibi-nega.diaputr.repl.co
+https://ganchibi-nega.diaputr.repl.co
